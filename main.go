@@ -10,8 +10,7 @@ import (
 )
 
 func dieUsage(err error) {
-    usageFmt := `
-Usage: %s [keyfile]
+    usageFmt := `Usage: %s [keyfile]
 
 Removes the password from an RSA key that was encrypted with an empty string
 password.  keyfile should be in PEM format.  Unencrypted key will be written
