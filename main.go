@@ -15,7 +15,8 @@ Usage: %s [keyfile]
 
 Removes the password from an RSA key that was encrypted with an empty string
 password.  keyfile should be in PEM format.  Unencrypted key will be written
-to stdout in PEM format.`
+to stdout in PEM format.
+`
 
     if err != nil {
         fmt.Fprintf(os.Stderr, "%v\n\n", err)
