@@ -14,5 +14,5 @@ To use this tool:
 
 ```
 go get github.com/syncsynchalt/empty-pass-stripper
-empty-pass-stripper /path/to/encrypted-key.pem > unencrypted-key.pem
+~/go/bin/empty-pass-stripper /path/to/encrypted-key.pem > unencrypted-key.pem
 ```
